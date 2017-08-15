@@ -1,2 +1,2 @@
 # debian
-needed scripts, confs, etc. after fresh install
+needed scripts, confs, etc. after a fresh install
