@@ -1,0 +1,28 @@
+# Core AwesomeWM session and X11 tools
+awesome
+picom
+rofi
+feh
+arandr
+xclip
+maim
+x11-xserver-utils
+x11-utils
+xsettingsd
+
+# Audio, brightness, notifications, and desktop helpers
+brightnessctl
+brightness-udev
+playerctl
+pamixer
+dunst
+pavucontrol
+blueman
+
+# Network and privilege prompts in a lightweight WM
+network-manager-gnome
+policykit-1-gnome
+
+# Useful extras for a daily-driver workstation
+lxappearance
+fonts-font-awesome

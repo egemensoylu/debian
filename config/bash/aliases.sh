@@ -22,3 +22,7 @@ alias pmmigrate='python manage.py migrate'
 # Navigation helpers
 alias cdd='cd ~/Desktop'
 alias cdp='cd ~/projects 2>/dev/null || cd ~/Projects 2>/dev/null || pwd'
+
+# Git shortcuts
+alias gs='git status -sb'
+alias gl='git log --oneline --graph --decorate -20'

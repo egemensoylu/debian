@@ -1,6 +1,6 @@
 # Package groups
 
-This repository splits packages into three practical layers.
+This repository splits packages into practical layers so a laptop, desktop, and minimal machine can share the same repo without installing everything.
 
 ## core.txt
 
@@ -15,7 +15,7 @@ Includes:
 
 ## dev.txt
 
-Packages that are commonly needed for local development or building software.
+Packages that are commonly needed for local development or for building software.
 
 Includes:
 - compilers and make
@@ -30,8 +30,28 @@ Optional GUI-oriented packages for a day-to-day Debian desktop.
 Includes:
 - browser
 - office tools
-- fonts
 - media tools
 - desktop utilities
 
-Trim these lists based on the machine role. A personal laptop and a headless server should not necessarily use the same package set.
+## fonts.txt
+
+Extra font coverage for terminals, documents, browser rendering, and multilingual text.
+
+## vim-build.txt
+
+Development libraries and toolchain packages used when compiling Vim with Python 3 support.
+
+
+## `packages/awesome.txt`
+
+Optional package group for an X11 AwesomeWM workstation. It includes the window manager itself plus practical daily-use companions such as:
+
+- compositor
+- launcher
+- wallpaper tool
+- notification daemon
+- network tray applet
+- policy agent
+- brightness, media, and audio helpers
+
+Trim this list if the machine is not using AwesomeWM.

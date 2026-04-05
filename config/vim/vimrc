@@ -40,6 +40,3 @@ nnoremap <silent> <C-l> :tabnext<CR>
 nnoremap <silent> <C-h> :tabprevious<CR>
 nnoremap <silent> + :resize +5<CR>
 nnoremap <silent> - :resize -5<CR>
-
-" Optional plugin keymaps. Uncomment if you use NERDTree.
-" nnoremap <silent> <C-n> :NERDTreeFocus<CR>

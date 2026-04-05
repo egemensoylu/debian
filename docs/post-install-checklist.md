@@ -6,7 +6,7 @@ Use this after a fresh Debian installation.
 
 - update package index
 - upgrade installed packages
-- verify correct timezone and locale
+- verify timezone and locale
 - confirm hostname
 - enable sudo for the main user
 - confirm firmware and microcode state
@@ -24,7 +24,8 @@ Use this after a fresh Debian installation.
 - link bash aliases
 - link tmux config
 - link vim config
-- confirm default editor
+- review the starter Git config
+- confirm the default editor
 
 ## Workstation setup
 

@@ -1,0 +1,16 @@
+git
+build-essential
+make
+pkg-config
+libncurses-dev
+libgtk2.0-dev
+libatk1.0-dev
+libcairo2-dev
+libx11-dev
+libxpm-dev
+libxt-dev
+python3
+python3-dev
+ruby-dev
+lua5.4
+liblua5.4-dev

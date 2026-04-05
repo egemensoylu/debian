@@ -4,3 +4,6 @@
 .DS_Store
 .vscode/
 .idea/
+
+# Local overrides for machine-specific AwesomeWM settings
+config/awesome/local.lua

@@ -18,10 +18,12 @@ run_step() {
   esac
 }
 
-run_step "Update and upgrade the system?" "system-update.sh"
-run_step "Install core packages?" "install-core-packages.sh"
-run_step "Install development packages?" "install-dev-packages.sh"
-run_step "Install workstation packages?" "install-workstation-packages.sh"
-run_step "Link configuration files into your home directory?" "link-configs.sh"
+run_step 'Update and upgrade the system?' 'system-update.sh'
+run_step 'Install core packages?' 'install-core-packages.sh'
+run_step 'Install development packages?' 'install-dev-packages.sh'
+run_step 'Install workstation packages?' 'install-workstation-packages.sh'
+run_step 'Install font packages?' 'install-font-packages.sh'
+run_step 'Install AwesomeWM packages?' 'install-awesome-packages.sh'
+run_step 'Link configuration files into your home directory?' 'link-configs.sh'
 
-echo "Bootstrap flow finished."
+echo 'Bootstrap flow finished.'

@@ -1,0 +1,16 @@
+return {
+  terminal = "x-terminal-emulator",
+  browser = "firefox-esr",
+  file_manager = "xdg-open .",
+  editor_cmd = "vim",
+  modkey = "Mod4",
+  wallpaper = os.getenv("HOME") .. "/Pictures/wallpapers/default.jpg",
+  tags = { "1", "2", "3", "4", "5", "6", "7", "8", "9" },
+
+  -- Extra machine-specific commands.
+  -- Common defaults are already handled by autostart.sh.
+  autorun = {
+    -- "syncthing --no-browser",
+    -- "flameshot",
+  },
+}
