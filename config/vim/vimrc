@@ -1,0 +1,45 @@
+set nocompatible
+syntax on
+filetype plugin indent on
+
+colorscheme industry
+
+set number
+set relativenumber
+set hidden
+set wildmenu
+set showcmd
+set hlsearch
+set incsearch
+set ignorecase
+set smartcase
+set autoindent
+set smartindent
+set backspace=indent,eol,start
+set ruler
+set laststatus=2
+set confirm
+set visualbell
+set mouse=a
+set cmdheight=2
+set updatetime=300
+set noswapfile
+set clipboard=unnamedplus
+
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
+set expandtab
+
+set splitbelow
+set splitright
+set winheight=10
+set winminheight=3
+
+nnoremap <silent> <C-l> :tabnext<CR>
+nnoremap <silent> <C-h> :tabprevious<CR>
+nnoremap <silent> + :resize +5<CR>
+nnoremap <silent> - :resize -5<CR>
+
+" Optional plugin keymaps. Uncomment if you use NERDTree.
+" nnoremap <silent> <C-n> :NERDTreeFocus<CR>

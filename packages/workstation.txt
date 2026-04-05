@@ -1,0 +1,15 @@
+firefox-esr
+vlc
+libreoffice
+fonts-dejavu
+fonts-noto-core
+fonts-noto-color-emoji
+gnome-tweaks
+gnome-shell-extension-manager
+network-manager-openvpn
+network-manager-openvpn-gnome
+pavucontrol
+blueman
+evince
+file-roller
+gimp
